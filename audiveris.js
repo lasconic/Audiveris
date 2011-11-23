@@ -61,6 +61,8 @@ function run() {
     "-jar",
     audiverisHome + "/dist/audiveris-4.1beta.jar",
     "-batch",
+    "-option",
+    "log.Logger.printStackOnWarning=TRUE",
     "-input",
     filename,
     "-export",
