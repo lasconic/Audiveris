@@ -62,7 +62,7 @@ function run() {
     audiverisHome + "/dist/audiveris-4.1beta.jar",
     "-batch",
     "-option",
-    "log.Logger.printStackOnWarning=TRUE",
+    "omr.log.Logger.printStackOnWarning=TRUE",
     "-input",
     filename,
     "-export",
